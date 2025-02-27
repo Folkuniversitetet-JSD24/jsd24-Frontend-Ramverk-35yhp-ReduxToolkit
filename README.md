@@ -1,8 +1,8 @@
-# jsd24-Frontend-Ramverk-35yhp-ReduxToolkit
+# React + Vite
 
-Intro till Global State Management med Redux Toolkit och API:er och Integrationer med Redux Toolkit.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- Fokus ligger på att förstå hur data delas och hanteras mellan flera komponenter i en applikation.
-- Interaktion med API:er och Tredjepartstjänster.
-- Hur API-integration används för att bygga dynamiska applikationer.
-- Redux Toolkit: createAsyncThunk().
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
