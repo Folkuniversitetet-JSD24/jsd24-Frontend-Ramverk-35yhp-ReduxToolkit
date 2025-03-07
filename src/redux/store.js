@@ -5,6 +5,7 @@ import { configureStore } from "@reduxjs/toolkit";
 // Importera counterReducer från vår slice-fil.
 import counterReducer from "./counterSlice";
 import todosReducer from "./todosSlice";
+import postsReducer from "./postsSlice";
 
 /*
   Store:
@@ -16,6 +17,7 @@ const store = configureStore({
   reducer: {
     counter: counterReducer,
     todos: todosReducer,
+    posts: postsReducer,
   },
 });
 

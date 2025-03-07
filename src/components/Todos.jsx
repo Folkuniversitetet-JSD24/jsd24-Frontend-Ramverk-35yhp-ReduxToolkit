@@ -8,7 +8,6 @@ function Todos() {
   const [text, setText] = useState("");
 
   const todos = useSelector((state) => state.todos.items);
-  console.log(todos);
 
   const dispatch = useDispatch();
 
